@@ -1,0 +1,13 @@
+{
+	"file": "https://raw.githubusercontent.com/rgraus/HPC_7/master/output.csv",
+	"name": "HPC_7",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Peaks" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 11 }
+	]
+}
