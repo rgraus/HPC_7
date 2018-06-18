@@ -6,7 +6,7 @@
 	"skip": 0,
 	"meta": [
 		{ "type": "id", "index": 0, "name": "mergedPeaks" },
-		{ "type": "integer", "index": 12, "name": "Chr" },
+		{ "type": "string", "index": 12, "name": "Chr" },
 		{ "type": "integer", "index": 13, "name": "Start" },
 		{ "type": "integer", "index": 14, "name": "End" },
 		{ "type": "string", "index": 15, "name": "peakId" },
