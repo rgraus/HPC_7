@@ -23,7 +23,7 @@
 		{ "type": "string", "index": 26, "name": "geneSymb" },
 		{ "type": "float", "index": 27, "name": "l2fc_kd" },
 		{ "type": "float", "index": 28, "name": "minLog10p_kd" },
-		{ "type": "float", "index": 29, "name": "padj_kd" },
+		{ "type": "float", "index": 29, "name": "minLog10padj_kd" },
 		{ "type": "float", "index": 30, "name": "TpmScCh" },
 		{ "type": "float", "index": 31, "name": "TpmKdCh" },
 		{ "type": "float", "index": 32, "name": "TpmScNuc" },
@@ -32,13 +32,13 @@
 		{ "type": "float", "index": 35, "name": "TpmKdCyt" },
 		{ "type": "float", "index": 36, "name": "l2fc_tpo" },
 		{ "type": "float", "index": 37, "name": "minLog10p_tpo" },
-		{ "type": "float", "index": 38, "name": "padj_tpo" },
+		{ "type": "float", "index": 38, "name": "minLog10padj_tpo" },
 		{ "type": "float", "index": 39, "name": "TpmSsCh" },
 		{ "type": "float", "index": 40, "name": "TpmTpoCh" },
 		{ "type": "float", "index": 41, "name": "TpmSsNuc" },
 		{ "type": "float", "index": 42, "name": "TpmTpoNuc" },
 		{ "type": "float", "index": 43, "name": "TpmSsCyt" },
-		{ "type": "float", "index": 44, "name": "TpmSsCyt" }
+		{ "type": "float", "index": 44, "name": "TpmTpoCyt" }
 	],
 	"sets": [
 		{ "format": "binary", "start": 1, "end": 11 }
