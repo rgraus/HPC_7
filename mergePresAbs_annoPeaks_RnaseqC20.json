@@ -1,0 +1,22 @@
+{
+	"file": "https://raw.githubusercontent.com/rgraus/HPC_7/master/mergePresAbs_annoPeaks_Rnaseq.csv",
+	"name": "HPC7_chip_rnaseq",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "mergedPeaks" },
+		{ "type": "string", "index": 12, "name": "Chr" },
+		{ "type": "integer", "index": 13, "name": "Start" },
+		{ "type": "integer", "index": 14, "name": "End" },
+		{ "type": "string", "index": 15, "name": "peakId" },
+		{ "type": "float", "index": 16, "name": "GC%" },
+		{ "type": "string", "index": 17, "name": "Strand" },
+		{ "type": "string", "index": 18, "name": "Gene Name" },
+		{ "type": "string", "index": 19, "name": "anno" },
+		{ "type": "string", "index": 20, "name": "detAnno" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 11 }
+	]
+}
