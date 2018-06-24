@@ -1,0 +1,42 @@
+{
+	"file": "https://raw.githubusercontent.com/rgraus/HPC_7/master/mergePresAbs_annoPeaks_Rnaseq.csv",
+	"name": "HPC7_chip_rnaseq",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "mergedPeaks" },
+		{ "type": "string", "index": 12, "name": "Chr" },
+		{ "type": "integer", "index": 13, "name": "Start" },
+		{ "type": "integer", "index": 14, "name": "End" },
+		{ "type": "string", "index": 15, "name": "peakId" },
+		{ "type": "float", "index": 16, "name": "GC%" },
+		{ "type": "string", "index": 17, "name": "Strand" },
+		{ "type": "string", "index": 18, "name": "Gene Name" },
+		{ "type": "string", "index": 19, "name": "anno" },
+		{ "type": "string", "index": 20, "name": "detAnno" },
+		{ "type": "integer", "index": 21, "name": "Distance to TSS" },
+		{ "type": "string", "index": 22, "name": "Nearest Ensembl" },
+		{ "type": "string", "index": 23, "name": "Gene Type" },
+		{ "type": "float", "index": 24, "name": "CpG%" },
+		{ "type": "string", "index": 25, "name": "motifs" },
+		{ "type": "string", "index": 26, "name": "geneSymb" },
+		{ "type": "float", "index": 27, "name": "l2fc_kd" },
+		{ "type": "float", "index": 28, "name": "minLog10p_kd" },
+		{ "type": "float", "index": 29, "name": "minLog10padj_kd" },
+		{ "type": "float", "index": 30, "name": "TpmScCh" },
+		{ "type": "float", "index": 31, "name": "TpmKdCh" },
+		{ "type": "float", "index": 32, "name": "TpmScNuc" },
+		{ "type": "float", "index": 33, "name": "TpmKdNuc" },
+		{ "type": "float", "index": 34, "name": "TpmScCyt" },
+		{ "type": "float", "index": 35, "name": "TpmKdCyt" },
+		{ "type": "float", "index": 36, "name": "l2fc_tpo" },
+		{ "type": "float", "index": 37, "name": "minLog10p_tpo" },
+		{ "type": "float", "index": 38, "name": "minLog10padj_tpo" },
+		{ "type": "float", "index": 39, "name": "TpmSsCh" },
+		{ "type": "float", "index": 40, "name": "TpmTpoCh" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 11 }
+	]
+}
